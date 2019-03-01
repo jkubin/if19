@@ -1,0 +1,11 @@
+MESSAGE([EROTIC_ERROR],	[#metoo])
+MESSAGE([NO_KEYBOARD],	[Keyboard error or no keyboard present. Press F1 to continue.])
+MESSAGE([CONTACT_HENRIK],	[Internal Error. Driver NOT Loaded yet. Contact Henrik!!!])
+#ifdef (WINDOWS)
+MESSAGE([WIN95_KEYBOARD],	[Windows 95 was unable to detect your keyboard. Press F1 to retry or F2 to abort.])
+MESSAGE([TO_SEND_RECYCLE_BIN_TO_RECYCLE_BIN],	[Are you sure you want to send `Recycle Bin' to the Recycle Bin [y/N]?])
+#endif
+MESSAGE([KEYBOARD_NOT_FOUND],	[Keyboard not found. Press F1 to Rescue.])
+MESSAGE([KEYBOARD_NOT_RESPONDING],	[Keyboard not responding. Press any key to continue.])
+MESSAGE([PRESS_ANY_KEY],	[Keyboard not present, press any key.])
+MESSAGE([BIG_FCK_UP],	[A really big f*ck up has been detected!!!])
