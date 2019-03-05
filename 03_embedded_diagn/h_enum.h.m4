@@ -7,11 +7,11 @@ __HEADER([Josef Kubin], [2019/02/17], [embedded_diagn])
 # --->/ ITEM \---,ITEM
 #     \______/<--'
 #
-#               _____CAPT_______
-#              |                |
-#  CAPT  ______V______  ITEM   _|_
-# ----->/ [= COUNTER] \------>/ ε \---,ITEM
-#       \_____________/       \___/<--'
+#               ______CAPT_______
+#              |                 |
+#  CAPT  ______V_______  ITEM   _|_
+# ----->/ [ = COUNTER] \------>/ ε \---,ITEM
+#       \______________/       \___/<--'
 # β
 define([PRINT_ONCE], [ = COUNTER[]define([$0])])
 

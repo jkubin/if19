@@ -32,7 +32,7 @@ trunc:
 #:cl/clean	removes generated files
 .PHONY: clean cl
 clean cl:
-	$(RM) *.java
+	$(RM) $(DEBUG_FILE) *.java
 
 
 #:h/help	prints this text

@@ -1,4 +1,5 @@
 __HEADER([Josef Kubin], [2019/02/17], [embedded_diagn])
+___POINT([Do not Repeat Yourself, append β])
 
 #                          _______CAPT
 #                         |      /
@@ -18,7 +19,7 @@ define([NEXT_CAPT], [
 
 	divert(0)dnl
 undivert(1)
-char *PROJECT[_$1][[]] = {
+char *PROJECT[_$1[]] = {
 divert(1)dnl
 };
 divert(2)dnl

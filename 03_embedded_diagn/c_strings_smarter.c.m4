@@ -21,7 +21,7 @@ define([CAPT], [
 
 	divert(0)dnl
 undivert
-char PROJECT[_$1][[]] =
+char PROJECT[_$1[]] =
 "divert(1)";
 divert(-1)
 

@@ -24,7 +24,7 @@ define([CAPT], [
 
 	divert(0)dnl
 undivert(1)
-char *PROJECT[_$1][[]] = {
+char *PROJECT[_$1[]] = {
 divert(1)dnl
 };
 divert(2)dnl
@@ -41,7 +41,7 @@ define([NEXT_CAPT], [
 
 	divert(0)dnl
 undivert(1)
-char *PROJECT[_$1][[]] = {
+char *PROJECT[_$1[]] = {
 divert(1)dnl
 };
 divert(2)dnl

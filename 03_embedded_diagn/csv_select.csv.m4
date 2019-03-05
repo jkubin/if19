@@ -1,4 +1,5 @@
 __HEADER([Josef Kubin], [2019/02/17], [embedded_diagn])
+___POINT([UNDEF kills CAPT and ITEM])
 
 #      ______ CAPT([sel]) _______
 # --->/ CAPT \---------->/ UNDEF \----> undefine([CAPT], [ITEM])

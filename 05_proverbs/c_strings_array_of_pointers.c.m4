@@ -64,7 +64,7 @@ struct aux_symbol {
         void _;
 };
 divert(START_INDEX_PTR)
-char **PROJECT[]_ptr_list[[]] = {
+char **PROJECT[_ptr_list[]] = {
 divert(LAST_BUFFER)dnl
 };
 dnl[]struct aux_symbol PROJECT[]_ptr_array_null;	<--- if you want ...

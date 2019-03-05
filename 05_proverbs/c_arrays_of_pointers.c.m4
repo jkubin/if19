@@ -59,7 +59,7 @@ divert(0)dnl
  */
 
 divert(START_INDEX_PTR)
-char *PROJECT[]_all[[]] = {
+char *PROJECT[_all[]] = {
 divert(LAST_BUFFER)dnl
 };
 divert(-1)

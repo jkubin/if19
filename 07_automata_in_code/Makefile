@@ -4,8 +4,8 @@ ___DESCR([dnl
 $ cat .vimrc
 nnoremap <c-k> :make FILE=%<cr>
 ])
-___POINT([faster development cycle])
-___USAGE([make FILE=my_file.m4])
+___POINT([faster development cycle; easier debugging])
+___USAGE([make FILE=my_file.m4		<--- or open my_file.m4 and press Ctrl-k in Vim])
 endef
 
 VPATH = ..

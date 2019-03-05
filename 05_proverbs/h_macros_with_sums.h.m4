@@ -17,7 +17,7 @@ define([FIRST_ITEM], [
 [#define $0		0x]eval($0_HDR - START_INDEX_HDR, 16, 2)	/* $0_NAME */
 divert(LAST_BUFFER)dnl
 extern char *PROJECT[_]$0_CODE[[]];
-extern char *PROJECT[_]$0_CODE[]_null[[]];
+extern char *PROJECT[_]$0_CODE[_null[]];
 divert(-1)
 
 	# push item to the stack named "COUNTER" to evaluate it later

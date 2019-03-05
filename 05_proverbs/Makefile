@@ -1,5 +1,5 @@
 define m4
-__HEADER([Josef Kubin], [2019/02/17], [if19_generators])
+__HEADER([Josef Kubin], [2019/02/17], [if19])
 ___USAGE([make h])
 endef
 

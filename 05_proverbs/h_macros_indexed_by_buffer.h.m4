@@ -51,7 +51,7 @@ divert(0)dnl
 
 divert(LAST_BUFFER)
 extern char *PROJECT[[]];
-extern char *PROJECT[]_ptr_array_null[[]];
+extern char *PROJECT[_ptr_array_null[]];
 
 [#]endif	/* HEADER_NAME */
 divert(-1)

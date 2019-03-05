@@ -143,7 +143,7 @@ define([FARM_PTR],	BUFFER_IDX)
 
 define([LAST_BUFFER],	BUFFER_IDX)
 
-# forget unused macros (if you want to be perfect ...)
+# forget unused macro (if you want to be perfect ...)
 undefine(
 
 	[BUFFER_IDX],

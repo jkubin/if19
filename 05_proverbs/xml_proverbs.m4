@@ -32,6 +32,7 @@ define([NEXT_ITEM], [
 divert(-1)
 ])
 
+# A → β
 define([FEBRUARY],	defn([JANUARY]))
 define([MARCH],		defn([JANUARY]))
 define([APRIL],		defn([JANUARY]))

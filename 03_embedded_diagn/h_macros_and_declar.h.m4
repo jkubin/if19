@@ -21,7 +21,7 @@ define([NEXT_CAPT], [
 	divert(0)
 /* PROJECT[_$1] */
 divert(1)
-extern char PROJECT[]_$1[[]];dnl
+extern char PROJECT[_$1[]];dnl
 divert(-1)
 
 	# init or reset counter

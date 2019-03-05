@@ -1,9 +1,9 @@
 divert(-1)changequote([,])
 
-define([PROJECT_NAME],		[Source code generators])
+define([PROJECT_NAME],		[Source Code Generators])
 define([PROJECT_ROOT_URL],	[https://github.com/jkubin/if19])
 
-__HEADER([Josef Kubin], [2018/10/15], [if19_generators])
+__HEADER([Josef Kubin], [2018/10/15], [if19])
 ___DESCR([you must understand https://en.wikipedia.org/wiki/Automata_theory])
 ___POINT([the most general rules for all scripts])
 ___USAGE([m4 master.m4 ... specific.m4 most_specific_src.m4 source_data.mc > specific.src])
@@ -52,7 +52,7 @@ define([LEN], [$#])
 # put additional brackets around result
 define([BRAC], [[$@]])
 
-# put left/right unpaired bracket (to JSON generators)
+# put left/right unpaired bracket (to JSON, Bash, ... generators)
 define([LBRAC], [changequote`'format(`%c', 91)changequote([,])])
 define([RBRAC], [changequote`'format(`%c', 93)changequote([,])])
 
