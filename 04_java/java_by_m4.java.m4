@@ -39,13 +39,13 @@ divert(-1)
 # A → β
 define([PROPERTY], [
 
-	divert(PRIVATE_ATTRIB)dnl
+	divert(0)dnl
 	private $2 $1;
 divert(CONSTRUCTOR_ARGS)COMMA[]$2 $1[]dnl
 divert(CONSTRUCTOR_ASSIGN)dnl
 		this.$1 = $1;
 divert(GETTERS)
-	public $2 $3() {
+	public $2 get$3() {
 		return this.$1;
 	}
 divert(-1)
@@ -54,7 +54,7 @@ divert(-1)
 	ifelse([$4], [], [], [
 
 		divert(SETTERS)
-	public void $4($2 $1) {
+	public void set$4($2 $1) {
 		this.$1 = $1;
 	}
 divert(-1)

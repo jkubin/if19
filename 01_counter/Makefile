@@ -1,15 +1,8 @@
 define m4
 __HEADER([Josef Kubin], [2019/02/24], [counter])
-___DESCR([])
-___POINT([])
 ___USAGE([make h])
 endef
 
-SUFFIXES = c h xml json html csv
-M4_FILES = $(wildcard $(foreach suf,$(SUFFIXES),*.$(suf).m4))
-TARGETS = $(M4_FILES:.m4=)
-
-PROJECT = $(notdir $(PWD))
 DEBUG_FILE = debug.m4
 VPATH = ..
 
@@ -35,7 +28,7 @@ trunc:
 #:cl/clean	remove generated files
 .PHONY: clean cl
 clean cl:
-	$(RM) $(DEBUG_FILE) $(TARGETS)
+	$(RM) $(DEBUG_FILE)
 
 
 #:h/help	print this text
