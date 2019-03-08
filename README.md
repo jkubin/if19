@@ -1,7 +1,8 @@
 # InstallFest 2019
 ![InstallFest](logo.png?raw=true "InstallFest 2019")
-# Source Code Generators I.
-Josef Kubín
+# Source Code Generators
+fundamentals
+[Video](https://www.youtube.com/watch?v=6KzVMxoRnUo)
 ## Install necessary packages:
 ```
 # dnf install -y m4 make libxslt
