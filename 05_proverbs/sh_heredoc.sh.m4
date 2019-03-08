@@ -12,7 +12,7 @@ ___POINT([how to create multiple files from multiple diverts])
 define([FIRST_ITEM], [
 
 	divert($0_SCN)dnl
-cat <<EOF>> [$0].scn
+cat <<EOF> [$0].scn
 [$1	$2]
 divert($0_SCN_END)dnl
 EOF
