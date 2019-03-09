@@ -17,7 +17,7 @@ __HEADER([Josef Kubin], [2019/02/17], [embedded_diagn])
 define([CAPT], [
 
 	divert(0)dnl
-undivert(1)
+undivert(1)dnl
 struct $1_log {
 divert(1)dnl
 };
@@ -30,7 +30,7 @@ divert(-1)
 	define([COUNTER], [0])
 ])
 
-# β
+# A → β
 define([ITEM], [
 
 	divert(0)dnl
@@ -47,6 +47,7 @@ divert(0)dnl
  */
 #ifndef __LOG_INDEX_FROM_STRUCT_H
 #define __LOG_INDEX_FROM_STRUCT_H
+
 divert(3)
 #endif /* __LOG_INDEX_FROM_STRUCT_H */
 divert(-1)
