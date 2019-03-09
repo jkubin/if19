@@ -29,10 +29,10 @@ enum $1_log {
 divert(1)dnl
 };
 divert(-1)
-
-	# counter = 1
-	define([COUNTER], [1])
 ])
+
+# counter = 1
+define([COUNTER], [1])
 
 # A → β
 define([ITEM], [
