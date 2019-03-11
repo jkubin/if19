@@ -132,7 +132,7 @@ ifelse(
 	defn([MOD_THREE]), defn([S]),    [no input symbol],
 	defn([MOD_THREE]), defn([ZERO]), [ % 3 = 0],
 	defn([MOD_THREE]), defn([ONE]),  [ % 3 = 1],
-	defn([MOD_THREE]), defn([TWO]),  [ % 3 = 2],
+	defn([MOD_THREE]), defn([TWO]),  [ % 3 = 2]dnl
 )
 ])
 
