@@ -12,6 +12,10 @@ DEBUG_FILE = debug.m4
 SYMBOLS = symbols.mc
 VPATH = ..
 
+.PHONY: help h
+help h:
+	@echo '[1;40;38;5;82m$$ vim -p *.m4[m	and press Ctrl-k'
+
 
 #:all	run opened file in Vim
 .PHONY: all
@@ -50,9 +54,3 @@ clean cl:
 .PHONY: trunc
 trunc:
 	> $(DEBUG_FILE)
-
-
-#:h/help	print this text
-.PHONY: help h
-help h:
-	@sed -n '/^#:/{s//\x1b[1;40;38;5;82mmake /;s/\t/\x1b[m /;p}' Makefile | sort	# ]]	<--- fix for m4

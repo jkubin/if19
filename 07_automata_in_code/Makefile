@@ -10,6 +10,10 @@ endef
 
 VPATH = ..
 
-.PHONY: test
-test: master.m4 $(FILE)
+.PHONY: help h
+help h:
+	@echo '[1;40;38;5;82m$$ vim -p *.m4[m	and press Ctrl-k'
+
+.PHONY: theory
+theory: master.m4 $(FILE)
 	m4 $+
