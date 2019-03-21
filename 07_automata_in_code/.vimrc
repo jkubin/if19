@@ -1,1 +1,1 @@
-nnoremap <c-k> :make FILE=%<cr>
+nnoremap <c-k> :make theory FILE=%<cr>
