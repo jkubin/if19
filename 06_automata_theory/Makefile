@@ -8,13 +8,10 @@ ___POINT([faster development cycle; easier debugging])
 ___USAGE([make FILE=my_file.m4		<--- or open my_file.m4 and press Ctrl-k in Vim])
 endef
 
-DEBUG_FILE = debug.m4
-SYMBOLS = symbols.mc
 VPATH = ..
-
-.PHONY: help h
-help h:
-	@echo '[1;40;38;5;82m$$ vim -p *.m4[m	and press Ctrl-k'
+SYMBOLS = symbols.mc
+DEBUG_FILE = debug.m4
+.DEFAULT_GOAL = help
 
 
 #:all	run opened file in Vim
@@ -54,3 +51,10 @@ clean cl:
 .PHONY: trunc
 trunc:
 	> $(DEBUG_FILE)
+
+
+#:h/help	prints this text
+.PHONY: help h
+help h:
+	@echo '[1;40;38;5;82m$$ vim -p *.m4[m	and press Ctrl-k'
+

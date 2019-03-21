@@ -9,11 +9,12 @@ ___USAGE([make FILE=my_file.m4		<--- or open my_file.m4 and press Ctrl-k in Vim]
 endef
 
 VPATH = ..
-
-.PHONY: help h
-help h:
-	@echo '[1;40;38;5;82m$$ vim -p *.m4[m	and press Ctrl-k'
+.DEFAULT_GOAL = help
 
 .PHONY: theory
 theory: master.m4 $(FILE)
 	m4 $+
+
+.PHONY: help h
+help h:
+	@echo '[1;40;38;5;82m$$ vim -p *.m4[m	and press Ctrl-k'
