@@ -4,7 +4,7 @@ ___USAGE([make h])
 endef
 
 VPATH = ..
-PROJECT = $(notdir $(PWD))
+PROJECT = czech_proverbs
 DEBUG_FILE = debug.m4
 NAVIG_FILE = lang.nav
 #SOURCE = proverbs.mc

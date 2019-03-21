@@ -4,7 +4,7 @@ ___USAGE([make h])
 endef
 
 VPATH = ..
-PROJECT = $(notdir $(PWD))
+PROJECT = embedded_diagnostics
 DEBUG_FILE = debug.m4
 #SOURCE = embedded_diagn.mc
 SOURCE = installfest_2019.mc
