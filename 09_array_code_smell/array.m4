@@ -9,11 +9,13 @@ define([SEQ], [ifelse([$1], [0], [[0x00, ]], [$0(decr($1))ifelse(eval($1 & 0xf),
 ])[0x]eval($1, 16, 2)[, ]])])
 
 divert(0)dnl
+/*
+ * various examples of expansion
+ */
+
 [#]define [AUTO_ARRAY]		incr(AUTO_ARRAY)
 [#]define [AUTO_ARRAY]		decr(AUTO_ARRAY)
 [#define AUTO_ARRAY]		AUTO_ARRAY
-
-/* wrong expansion */
 #define [AUTO_ARRAY]		AUTO_ARRAY
 [#]define AUTO_ARRAY		AUTO_ARRAY
 
