@@ -75,7 +75,7 @@ define([S], [
 	#      a
 	# Q1 ----> Q2
 	#      b
-	# Q2 ----> REJECT
+	# Q1 ----> REJECT
 	]defn([Q1])[
 ])
 
