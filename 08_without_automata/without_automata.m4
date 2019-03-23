@@ -22,7 +22,7 @@ divert(-1)
 
 divert(0)dnl
 /*
- * without automata you burn in hell :-(
+ * without automata programming in M4 is unbearably difficult
  */
 const char message[[]] =
 "divert(1)";
