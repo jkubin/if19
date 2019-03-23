@@ -26,8 +26,7 @@ define([CLASS], [
 	divert(0)dnl
 undivert
 public class $1 implements java.io.Serializable {
-divert(CONSTRUCTOR_NAME)dnl
-
+divert(CONSTRUCTOR_NAME)
 	public $1(divert(CONSTRUCTOR_ARGS_BRAC)) {
 divert(CONSTRUCTOR_BRAC)dnl
 	}
