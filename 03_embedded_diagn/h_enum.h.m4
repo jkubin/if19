@@ -18,6 +18,9 @@ define([PRINT_ONCE], [ = COUNTER[]define([$0])])
 # A → β
 define([CAPT], [
 
+	# counter = 1
+	define([COUNTER], [1])
+
 	# A → β
 	define([START_VAL], defn([PRINT_ONCE]))
 
@@ -30,9 +33,6 @@ divert(1)dnl
 };
 divert(-1)
 ])
-
-# counter = 1
-define([COUNTER], [1])
 
 # A → β
 define([ITEM], [
